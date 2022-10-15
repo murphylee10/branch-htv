@@ -1,0 +1,13 @@
+/* Styling for Org Landing Page */
+
+body{
+    background:var(--backgroundcolor);
+    margin: 4px;
+    padding: 0;
+
+}
+
+:root{
+    --backgroundcolor: #515912
+
+}
