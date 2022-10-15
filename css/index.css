@@ -1,28 +1,30 @@
-.center {
+.beach {
     height: 400px;
+    width: 900;
     border-radius: 10px;
     float: none;
     margin-top: 0px;
     padding: 0px;
-    width: auto;
+    /*width: auto;*/
     margin-right: auto;
     margin-left: auto;
-    display: block;
+    /*display: block;*/
   }
 
   .logo {
-    height: 40px;
+    height: 50px;
     padding: 0px;
     margin-top: 30px;
     margin-left: 0px;
   }
 
   body {
-    background-color: #243826;
+    background-image: url("/images/hellodarkness.jpg");
+    background-position: center center;;
     margin-right: 40px;
     margin-left: 40px;
-    display: block;
-    width: auto;
+    /*display: block;
+    width: auto;*/
   }
 
   .sub {
@@ -31,9 +33,18 @@
     font-family: "Montserrat";
     text-align: left;
     margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .copy {
+    font-size: 25px;
+    color: aliceblue;
+    font-family: "Montserrat";
+    text-align: justify;
+    margin-bottom: 30px;
   }
   
-  .welcome{
+  .head{
     font-size: 60px;
     color: aliceblue;
     font-family: "Montserrat";
@@ -41,27 +52,34 @@
     padding: 0px;   
   }
 
-  .column {
+
+.button{
+    font-size: 40px;
+    font-family: "Montserrat";
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.column1 {
     float: left;
     width: 50%;
     }
+
+.column2 {
+    float: left;
+    width: 25%;
+    }
     
-    /* Clear floats after the columns */
-    .row:after {
+/* Clear floats after the columns */
+.row:after {
     content: "";
     display: table;
     clear: both;
-    }
-
-    .button{
-        font-size: 40px;
-        font-family: "Montserrat";
-        border: none;
-        color: black;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        margin: 4px 2px;
-        cursor: pointer;
     }
