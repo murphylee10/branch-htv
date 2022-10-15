@@ -1,4 +1,4 @@
-# Branch Application
+# BranchOut Application
 
 A web application designed to promote the restoration of nature by allowing local communities to connect and solve local environmental issues.
 
