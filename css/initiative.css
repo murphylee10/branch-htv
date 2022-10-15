@@ -1,3 +1,9 @@
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
 #faq h1 {
   text-align: center;
   margin: 50px 0 !important;
@@ -43,10 +49,4 @@
 #faq .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
   background-color: #e8eeff;
-}
-
-.container {
-  width: 80%;
-  margin: auto;
-  overflow: hidden;
 }
