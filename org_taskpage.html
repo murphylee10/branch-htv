@@ -5,9 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <title>Document</title>
+    <link rel="stylesheet" href="\css\org_landing.css">
+    <title>Task Creation Page</title>
 </head>
+
 <body>
-    
+
+    <!-- Label -->
+	<h4 class= "label">  Insert Title Here: </h4>
+	<!-- Input Box -->
+	<input class = "inputBox" id = "title" type = "text">
+
+	<!-- Label -->
+	<h4 class= "label">  Insert Location Here: </h4>
+	<!-- Input Box -->
+	<input class = "inputBox" id = "location" type = "text">
+
+    <!-- Label -->
+	<h4 class= "label">  Insert Extra Info Here: </h4>
+	<!-- Input Box -->
+	<input class = "inputBox" id = "extrainfo" type = "text">
+
+    <!-- Label -->
+	<h4 class= "label">  To Bring: </h4>
+	<!-- Input Box -->
+	<input class = "inputBox" id = "thingstobring" type = "text">
+
+    <!-- Label -->
+	<h4 class= "label">  Num of Members Wanted </h4>
+	<!-- Input Box -->
+	<input class = "inputBox" id = "numvolunteers" type = "text">
+
+    <form onclick = create_post()>
+        <input type="submit" value=" Create Post ">
+    </form>
+
+    <form action="org_landingpage.html">
+        <input type="submit" value=" Back to Main">
+    </form>
+
+    <p id = "newpost"></p>
+
 </body>
 </html>

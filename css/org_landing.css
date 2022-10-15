@@ -1,13 +1,25 @@
 /* Styling for Org Landing Page */
 
-body{
-    background:var(--backgroundcolor);
-    margin: 4px;
-    padding: 0;
-
-}
-
 :root{
     --backgroundcolor: #515912
 
+}
+
+body{
+    background: var(--backgroundcolor);
+    margin: 30px;
+    padding: 0;
+}
+
+
+.column {
+float: left;
+width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
 }

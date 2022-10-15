@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="\css\org_landing.css">
     <title>Your Impact</title>
 
-</head>
-<body>
+</head><body>
+    
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
@@ -30,6 +30,9 @@
               <p class = "lead"> Final Call to Action </p>
               
         </div>
+        <form action="org_taskpage.html">
+            <input type="submit" value=" New Initiative ">
+        </form>
         
       </div>
 
@@ -41,31 +44,15 @@
     <!-- Stats Column (# of members/initiatives/locations) -->
 
     <!-- Button for New Tasks Initiatives -->
-    <button> New Initiative </button>
 
     <div class="row">
         <div class="column">The Initiatives Feed Goes Here</div>
         <div class="column">The Stats Feed Goes Here</div>
-      </div>
+    </div>
 
-      <!-- Style Shenanigans -->
-    <style>
-        .column {
-        float: left;
-        width: 50%;
-        }
+    <p id = "newpost"></p>
 
-        /* Clear floats after the columns */
-        .row:after {
-        content: "";
-        display: table;
-        clear: both;
-        }
-    </style>
-
-    
-
-
+    <script src="feed_posts.js"></script>
 
 </body>
 </html>
