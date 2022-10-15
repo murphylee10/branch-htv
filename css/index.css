@@ -1,0 +1,33 @@
+.center {
+    height: 400px;
+    border-radius: 10px;
+    float: none;
+    margin-top: 0px;
+    padding: 0px;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+
+  .logo {
+    height: 40px;
+    padding: 0px;
+    margin: auto;
+  }
+  body {
+    background-color: #243826;
+    font-size: 60px;
+    color: aliceblue;
+    font-family: "Montserrat";
+    text-align: left;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 0px;
+  }
+  p {
+    font-size: 30px;
+    color: aliceblue;
+    font-family: "Montserrat";
+    margin-bottom: 30px;
+  }
