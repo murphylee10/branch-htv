@@ -41,3 +41,10 @@ $('.tab a').on('click', function (e) {
     $(target).fadeIn(800);
 
 });
+document.getElementById("org-login-button").onclick = function () {
+    location.href = "/org_landingpage.html";
+};
+// document.getElementById("user-login-button").onclick = function () {
+//     location.href = "/index.html";
+// };
+
