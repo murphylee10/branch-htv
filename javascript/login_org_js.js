@@ -46,7 +46,7 @@ var login_form = document.getElementById("login");
 
 login_form.addEventListener('submit', function (event) {
     event.preventDefault();
-    location.href = "/index.html";
+    location.href = "/org.html";
 
 });
 
@@ -54,7 +54,7 @@ var signup_form = document.getElementById("signup");
 
 signup_form.addEventListener('submit', function (event) {
     event.preventDefault();
-    location.href = "/index.html";
+    location.href = "/org_landingpage";
 
 });
 

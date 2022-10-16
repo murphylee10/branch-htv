@@ -1,121 +1,37 @@
+<!-- Credit: https://www.tutorialstonight.com/sample-html-code-for-homepage -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/index.css" />
-    <title>BranchOut Home</title>
-  </head>
 
-  <body>
-    <img class = 'logo' src="images/logo.png" alt="Logo" class="logo" />
-    <hr />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css/homepage.css">
+</head>
 
-      <img src="images/logo.png" alt="Beach" class="beach" />
-      <h1>Branch. Connect. Restore</h1> 
-      <br>
-      <br>
-      <br>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="images/logo.png" alt="company logo"></a>
+        <nav class="nav-items">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
 
-
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h2 class="display-4">What We Do</h2>
-        <br>
-        <p class="copy">
-          In BranchOut, we strive to team up with fellow Canadians as well as
-          many other people all around the world to fight against pollution as
-          one. Littering in beaches and forests leads to countless animal lives
-          lost. Eventually, it even destroys the very soil we walk on. As an
-          organization, we truly believe that if we take the time to Branch out
-          to others and Connect with them, we can work towards Restoring the
-          dying beauty of nature. We need all the help we can get.
-        </p>
-      </div>
-    </div>
-
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h2 class="display-4">What We Do</h2>
-        <br>
-        <p class="copy">
-          In BranchOut, we strive to team up with fellow Canadians as well as
-          many other people all around the world to fight against pollution as
-          one. Littering in beaches and forests leads to countless animal lives
-          lost. Eventually, it even destroys the very soil we walk on. As an
-          organization, we truly believe that if we take the time to Branch out
-          to others and Connect with them, we can work towards Restoring the
-          dying beauty of nature. We need all the help we can get.
-        </p>
-      </div>
-    </div>
-
-    <h1 class="display-4">One Huge Impact. Two Ways To Do It</h1>
-
-    <div class="row">
-      <div class="column">
-        <div class="jumbotron jumbotron-fluid">
-          <div class="container">
-            <h2 class="display-4">Organize</h2>
-            <br>
-            <p class="copy">
-              Know a place that needs a helping hand? Why not organize an event yourself?
-
-              With BranchOut, it's as easy as:
-                <li>
-                  Signing in as an Organizer
-                </li>
-                <li>
-                  Creating a call to action. 
-                  Set the time, date, location and details and send out a request for help!
-                </li>
-                <li>
-                  And Connecting with those interested to make a difference.
-                </li>
-                Sign up as an Organizer and start making a change!
-            </p>
-          </div>
+    <main>
+        <div class="intro">
+            <h1>BranchOut</h1>
+            <p>Branch, Connect, And Explore With Your Local Community</p>
+            <span><button id="user-login">User</button> <button id="org-login">Organization</button></span>
         </div>
-      </div>
 
-      <div class="column">
-        <div class="jumbotron jumbotron-fluid">
-          <div class="container">
-            <h2 class="display-4">Volunteer</h2>
-            <br>
-            <p class="copy">
-              Interested but need a hand starting out? 
+    </main>
 
-              Join a pre-existing event near you by:
-                <li>
-                  Signing in as a Volunteer
-                </li>
-                <li>
-                  Checking out our list of nearby initiatives
-                </li>
-                <li>
-                  And Branching Out to connect with the organizer!
-                </li>
+    <script src="javascript/homepage.js"></script>
 
-                <p class = 'copy'> Sign up as an Organizer and start making a change! </p>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-      <div><h2 class="head">Interested?</h2></div>
-      <div><p class="sub">Let's Begin.</p></div>
-    
 
-    <button type="button" class="btn btn-success">Organize An Initiative</button>
-    <button type="button" class="btn btn-success">Volunteer At An Event </button>
-  </body>
+</body>
+
 </html>
