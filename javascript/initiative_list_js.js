@@ -9,22 +9,20 @@ initiatives_data.forEach(function (init, index) {
   var panel = document.createElement("div");
 
   // p elements
-  var description = document.createElement("p")
-  description.innerHTML = "Description: " + init["description"]
-  var address = document.createElement("p")
-  address.innerHTML = "Address: " + init["address"]
-  var people_needed = document.createElement("p")
-  people_needed.innerHTML = "People Needed: " + init["people_needed"]
+  var description = document.createElement("p");
+  description.innerHTML = "Description: " + init["description"];
+  var address = document.createElement("p");
+  address.innerHTML = "Address: " + init["address"];
+  var people_needed = document.createElement("p");
+  people_needed.innerHTML = "People Needed: " + init["people_needed"];
 
-
-  panel.appendChild(description)
-  panel.appendChild(address)
-  panel.appendChild(people_needed)
+  panel.appendChild(description);
+  panel.appendChild(address);
+  panel.appendChild(people_needed);
 
   panel.classList.add("panel");
   document.getElementById("faq").appendChild(panel);
 });
-
 
 var acc = document.getElementsByClassName("accordion");
 var i;
