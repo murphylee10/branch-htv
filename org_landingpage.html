@@ -1,92 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-  <link rel="stylesheet" href="\css\org_landing.css">
-  <title>Your Impact</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="\css\org_landing.css">
+    <title>Your Impact</title>
 
-</head>
+</head><body>
+    
 
-<body>
-
-
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1 class="display-4" id="org_name"></h1>
-
-      <div class='lead'>
-        <div class="column">Join us Today!</div>
-        <div class="column" id="contact">To Connect With Us</div>
-      </div>
-      <br>
-      <hr>
-
-      <p> Any info about joining + your focus </p>
-
-      <p> Info about membership frequency </p>
-
-
-      <p class="lead"> Final Call to Action </p>
-      <form action="org_taskpage.html">
-        <input type="submit" value=" New Initiative ">
-      </form>
-
-    </div>
-
-
-  </div>
-
-  <!-- Button for New Tasks Initiatives -->
-
-  <div class="row">
-    <div class="column">New Initiative
-      <p id="newpost">Click me.</p>
-      <div id="new" class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">The Issue</h1>
-          <p id="p1">Hi! Welcome to BranchOut! Check out our upcoming initiatives below.</p>
+          <h1 class="display-4" id = "org_name">Greenify Toronto</h1>
+
+          <div class = 'lead'>
+            <div class="column">Join us Today!</div>
+            <div class="column" id = "contact">To Connect With Us: greenifyto@gmail.com</div>
+          </div>
+          <br>
+          <hr>
+
+              <p> We focus on connecting interested youth, especially undergraduates, with local start-ups that are cleaning up the city. </p>
+  
+              <p> Find New Initiatives on our page every Wednesday and Sunday. We look for around 20-30 volunteers per event.</p>
+      
+              
+              <p class = "lead"> Check us out! </p>
+              
+              
         </div>
+        
+        
       </div>
+
+    <!-- Button for New Tasks Initiatives -->
+
+    <div class="row">
+        <div class="column">=
+          <div id="new" class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Post An Initiative</h1>
+              <p id="p1">Hi! Welcome to BranchOut! Check out our upcoming initiatives below. To create a iew initiative, fill out the form on the right!</p><hr>
+          </div></div>
+        </div>
+    
+      
+        <div class="column" id ="post-boxes">
+          <form id = "userform">
+              <!-- Label -->
+              <h4 class= "label">  Insert Title Here: </h4>
+              <!-- Input Box -->
+              <input class = "inputBox" id = "title" type = "text">
+              <br>
+              <!-- Label -->
+              <h4 class= "label">  Insert Location Here: </h4>
+              <!-- Input Box -->
+              <input class = "inputBox" id = "location" type = "text">
+                <br>
+                <!-- Label -->
+              <h4 class= "label">  Insert Description Here: </h4>
+              <!-- Input Box -->
+              <input class = "inputBox" id = "extrainfo" type = "text">
+                <br>
+                <!-- Label -->
+              <h4 class= "label"> Num of Members Wanted </h4>
+              <!-- Input Box -->
+
+              <input class = "inputBox" id = "numvolunteers" type = "text">
+              
+              <p id="newpost">Post  New Initiative</p>
+            </form>
+   
+        </div>
     </div>
-
-
-    <div class="column">
-      <!-- Label -->
-      <h4 class="label"> Insert Title Here: </h4>
-      <!-- Input Box -->
-      <input class="inputBox" id="title" type="text">
-
-      <!-- Label -->
-      <h4 class="label"> Insert Location Here: </h4>
-      <!-- Input Box -->
-      <input class="inputBox" id="location" type="text">
-
-      <!-- Label -->
-      <h4 class="label"> Insert Extra Info Here: </h4>
-      <!-- Input Box -->
-      <input class="inputBox" id="extrainfo" type="text">
-
-      <!-- Label -->
-      <h4 class="label"> To Bring: </h4>
-      <!-- Input Box -->
-      <input class="inputBox" id="thingstobring" type="text">
-
-      <!-- Label -->
-      <h4 class="label"> Num of Members Wanted </h4>
-      <!-- Input Box -->
-      <input class="inputBox" id="numvolunteers" type="text">
-
-    </div>
-  </div>
-
-  <script src="javascript/objs.js"></script>
-  <script src="feed_posts.js"></script>
+    
+    <script src="feed_posts.js"></script>
+    <script src="loginsignupinfocollecting.js"></script>
 
 </body>
-
 </html>
