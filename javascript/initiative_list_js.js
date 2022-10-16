@@ -55,4 +55,19 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-initiatives_data.forEach(function (init, index) {});
+initiatives_data.forEach(function (init, index) {
+  // button
+  var header = document.createElement("button");
+  header.innerHTML = init["init_title"] + " (" + init["org_name"] + ")";
+  header.classList.add("accordion");
+  document.getElementByID("faq").appendChild(header);
+
+  // panel
+  var panel = document.createElement("div");
+  panel.innerHTML = panel.classList.add("panel");
+  document.getElementById("faq").appendChild(panel);
+});
+
+function map_maker(org_lat, org_lon) {
+  return;
+}

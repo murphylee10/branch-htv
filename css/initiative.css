@@ -1,4 +1,4 @@
-.container {
+#container {
   width: 80%;
   margin: auto;
   overflow: hidden;
@@ -15,6 +15,7 @@
   background-color: #ffffff;
   color: #444;
   cursor: pointer;
+  font-weight: bold;
   padding: 18px;
   width: 100%;
   text-align: left;
