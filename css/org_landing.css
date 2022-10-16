@@ -1,7 +1,7 @@
 /* Styling for Org Landing Page */
 
 :root{
-    --backgroundcolor: #515912
+    --backgroundcolor:  #243826
 
 }
 
@@ -17,6 +17,7 @@ float: left;
 width: 50%;
 margin-left: 0px;
 padding-right: 20px;
+text-align: center;
 }
 
 /* Clear floats after the columns */
@@ -27,7 +28,47 @@ clear: both;
 }
 
 .jumbotron{
-	background-color: #250902;
+	background-color: #d1bf8f;
 	padding: 25px;
-	color: white;
+	color:  #243826;
+}
+
+#userform p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+#userform {
+    background: #d1bf8f;
+
+}
+
+ @media (min-width: 768px) {
+#userform {
+    background:#d1bf8f;
+    margin: 50px 0 20px 0
+
+}}
+
+#label{
+    text-align: center;
+}
+
+.post-boxes{
+
+    text-align:center;
+}
+
+form {
+	width: 400px;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/*border: solid 1px #f0bbb0;*/
+	background-color: #f0bbb0;
+	flex-basis: grow;
+	color: black;
+	margin: auto;
 }
