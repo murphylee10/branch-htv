@@ -1,5 +1,5 @@
 .beach {
-    height: 400px;
+    height: 275px;
     width: 900;
     border-radius: 10px;
     float: none;
@@ -57,8 +57,7 @@
     font-size: 40px;
     font-family: "Montserrat";
     border: none;
-    color: black;
-    padding: 15px 32px;
+    padding: 0px 0px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
