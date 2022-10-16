@@ -13,4 +13,10 @@ initiatives_data.forEach(function (init, index) {
   distance.innerHTML =
     "Distance: " +
     getDistance(init["latitude"], init["longitude"], user_lat, user_long);
+
+  var withinDistance = 89;
+
+  if (distance <= withinDistance) {
+    console.log(distance);
+  }
 });
