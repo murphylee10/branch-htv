@@ -4,13 +4,16 @@
 document.getElementById("newpost").addEventListener("click", myFunction);
 
 	function myFunction() {
-
+		
+	// Variables for List
 	var numpeople = document.getElementById("numvolunteers").value;
 
 	var title = document.getElementById("title").value;
 
 	var location = document.getElementById("location").value;
+
 	var extra_info = document.getElementById("extrainfo").value;
+	// --------------
 
 	document.getElementById("newpost").innerHTML = "boo"+ numpeople;
 	
