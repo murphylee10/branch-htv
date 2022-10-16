@@ -1,10 +1,11 @@
 
 // post_list = []
+console.log(initiatives_data)
 
 document.getElementById("newpost").addEventListener("click", myFunction);
 
-	function myFunction() {
-		
+function myFunction() {
+
 	// Variables for List
 	var numpeople = document.getElementById("numvolunteers").value;
 
@@ -15,8 +16,8 @@ document.getElementById("newpost").addEventListener("click", myFunction);
 	var extra_info = document.getElementById("extrainfo").value;
 	// --------------
 
-	document.getElementById("newpost").innerHTML = "boo"+ numpeople;
-	
+	document.getElementById("newpost").innerHTML = "boo" + numpeople;
+
 	var tag = document.createElement("div");
 
 	var infos_loc = "Location: " + location;
@@ -43,7 +44,7 @@ document.getElementById("newpost").addEventListener("click", myFunction);
 	element.appendChild(tag);
 
 
-	}
+}
 
 
 
@@ -89,7 +90,7 @@ document.getElementById("newpost").addEventListener("click", myFunction);
 //     var numpeople = document.getElementById("numvolunteers").value;
 
 // 	post_list += org_name + "Once, there were turtles! These turtles loved to eat " + location.value + " and play in the sunshine! The turtles were really good at " + extra_info + numpeople + "."; 
-	
+
 // }
 
 // function sendpost(){
