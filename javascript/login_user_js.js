@@ -42,11 +42,19 @@ $('.tab a').on('click', function (e) {
 
 });
 
-document.getElementById("org-login-button").onclick = function () {
-    location.href = "/org_landingpage.html";
-};
+var login_form = document.getElementById("login");
 
-document.getElementById("org-signup-button").onclick = function () {
+login_form.addEventListener('submit', function (event) {
+    event.preventDefault();
     location.href = "/org_landingpage.html";
-};
+
+});
+
+var signup_form = document.getElementById("signup");
+
+signup_form.addEventListener('submit', function (event) {
+    event.preventDefault();
+    location.href = "/org_landingpage.html";
+
+});
 

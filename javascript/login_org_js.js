@@ -41,9 +41,20 @@ $('.tab a').on('click', function (e) {
     $(target).fadeIn(800);
 
 });
-document.getElementById("org-login-button").onclick = function () {
-    location.href = "/org_landingpage.html";
-};
-// document.getElementById("user-login-button").onclick = function () {
-//     location.href = "/index.html";
-// };
+
+var login_form = document.getElementById("login");
+
+login_form.addEventListener('submit', function (event) {
+    event.preventDefault();
+    location.href = "/index.html";
+
+});
+
+var signup_form = document.getElementById("signup");
+
+signup_form.addEventListener('submit', function (event) {
+    event.preventDefault();
+    location.href = "/index.html";
+
+});
+
