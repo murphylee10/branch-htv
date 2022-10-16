@@ -1,3 +1,8 @@
+body{
+  background-color: #d1bf8f;
+}
+
+
 #container {
   width: 80%;
   margin: auto;
@@ -12,9 +17,12 @@
 
 /* Style the buttons that are used to open and close the accordion panel */
 #faq .accordion {
-  background-color: #ffffff;
-  color: #444;
+  background-color: #758f3a;
+  color: #000000;
   cursor: pointer;
+  height: 125%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5em;
   font-weight: bold;
   padding: 18px;
   width: 100%;
@@ -27,7 +35,7 @@
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 #faq .active,
 .accordion:hover {
-  background-color: #ffbf80;
+  background-color: #d1bf8f;
 }
 
 /* Style the accordion panel. Note: hidden by default */
@@ -50,4 +58,9 @@
 #faq .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
   background-color: #e8eeff;
+}
+
+.panel p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3em;
 }
