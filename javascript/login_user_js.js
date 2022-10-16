@@ -54,7 +54,7 @@ var signup_form = document.getElementById("signup");
 
 signup_form.addEventListener('submit', function (event) {
     event.preventDefault();
-    location.href = "/user_landingpage.html";
+    location.href = "/user_input_loc.html";
 
 });
 
