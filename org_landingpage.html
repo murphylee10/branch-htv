@@ -28,11 +28,12 @@
       
               
               <p class = "lead"> Final Call to Action </p>
+              <form action="org_taskpage.html">
+                <input type="submit" value=" New Initiative ">
+              </form>
               
         </div>
-        <form action="org_taskpage.html">
-            <input type="submit" value=" New Initiative ">
-        </form>
+        
         
       </div>
 
@@ -46,12 +47,45 @@
     <!-- Button for New Tasks Initiatives -->
 
     <div class="row">
-        <div class="column">The Initiatives Feed Goes Here</div>
-        <div class="column">The Stats Feed Goes Here</div>
+        <div class="column">New Initiative
+          <p id="newpost">Click me.</p>
+          <div id="new" class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">The Issue</h1>
+              <p id="p1">Hi! Welcome to BranchOut! Check out our upcoming initiatives below.</p>
+          </div></div>
+        </div>
+    
+
+        <div class="column">
+              <!-- Label -->
+              <h4 class= "label">  Insert Title Here: </h4>
+              <!-- Input Box -->
+              <input class = "inputBox" id = "title" type = "text">
+
+              <!-- Label -->
+              <h4 class= "label">  Insert Location Here: </h4>
+              <!-- Input Box -->
+              <input class = "inputBox" id = "location" type = "text">
+
+                <!-- Label -->
+              <h4 class= "label">  Insert Extra Info Here: </h4>
+              <!-- Input Box -->
+              <input class = "inputBox" id = "extrainfo" type = "text">
+
+                <!-- Label -->
+              <h4 class= "label">  To Bring: </h4>
+              <!-- Input Box -->
+              <input class = "inputBox" id = "thingstobring" type = "text">
+
+                <!-- Label -->
+              <h4 class= "label"> Num of Members Wanted </h4>
+              <!-- Input Box -->
+              <input class = "inputBox" id = "numvolunteers" type = "text">
+                
+        </div>
     </div>
-
-    <p id = "newpost"></p>
-
+    
     <script src="feed_posts.js"></script>
 
 </body>
