@@ -1,7 +1,6 @@
-body{
-  background-color: #d1bf8f;
+body {
+  background-color: #000000;
 }
-
 
 #container {
   width: 80%;
@@ -41,7 +40,7 @@ body{
 /* Style the accordion panel. Note: hidden by default */
 #faq .panel {
   padding: 0 18px;
-  background-color: #e8eeff;
+  background-color: #9bacdc;
   display: none;
   overflow: hidden;
 }
@@ -52,7 +51,7 @@ body{
   color: #777;
   float: right;
   margin-left: 5px;
-  background-color: #e8eeff;
+  background-color: #c9d2ec;
 }
 
 #faq .active:after {
@@ -63,4 +62,26 @@ body{
 .panel p {
   font-family: "Montserrat", sans-serif;
   font-size: 1.3em;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("/images/nature2.jpg");
+
+  /* Set a specific height */
+  min-height: 1000px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+h1 {
+  font-size: 70px;
+  color: white;
+  background-color: rgba(18, 79, 8, 0.733);
+  padding: auto;
 }
