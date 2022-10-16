@@ -99,7 +99,7 @@ let initiatives_data = [
         address:
             "170 Laurier Av W, Ottawa, ON K1P 5V5",
         latitude: 45.42034681310679,
-        longitude: --75.69478513267973,
+        longitude: -75.69478513267973,
     },
 
 ];
