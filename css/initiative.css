@@ -17,7 +17,7 @@ body {
 /* Style the buttons that are used to open and close the accordion panel */
 #faq .accordion {
   background-color: #758f3a;
-  color: #000000;
+  color: #e8eeff;
   cursor: pointer;
   height: 125%;
   font-family: "Montserrat", sans-serif;
@@ -34,15 +34,17 @@ body {
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 #faq .active,
 .accordion:hover {
-  background-color: #d1bf8f;
+  background-color: #926832;
+  opacity: 0.9;
 }
 
 /* Style the accordion panel. Note: hidden by default */
 #faq .panel {
   padding: 0 18px;
-  background-color: #9bacdc;
+  background-color: #d1bf8f;
   display: none;
   overflow: hidden;
+  opacity: 0.9;
 }
 
 #faq .accordion:after {
