@@ -28,15 +28,15 @@ initiatives_data.forEach(function (init, index) {
   address.innerHTML = "Address: " + init["address"];
   var people_needed = document.createElement("p");
   people_needed.innerHTML = "People Needed: " + init["people_needed"];
-  var distance = document.createElement("p");
-  distance.innerHTML =
-    "Distance: " +
-    getDistance(init["latitude"], init["longitude"], latitude, longitude).toFixed(2);
+  // var distance = document.createElement("p");
+  // distance.innerHTML =
+  // "Distance: " +
+  // getDistance(init["latitude"], init["longitude"], latitude, longitude).toFixed(2);
 
   panel.appendChild(description);
   panel.appendChild(address);
   panel.appendChild(people_needed);
-  panel.appendChild(distance)
+  // panel.appendChild(distance)
 
   panel.classList.add("panel");
   document.getElementById("faq").appendChild(panel);
